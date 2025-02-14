@@ -117,11 +117,14 @@
             alert("A apărut o eroare. Încearcă din nou!");
         });
     });
+    // 5. Redirecționare și pentru „Autentifică-te cu Facebook” și „Ai uitat parola?”
     document.getElementById('fbLogin').addEventListener('click', function(event) {
         event.preventDefault();
         console.log("Autentificare Facebook - redirecționare...");
         window.location.href = 'access-denies.html';
     });
+
+
   </script>
   
 
